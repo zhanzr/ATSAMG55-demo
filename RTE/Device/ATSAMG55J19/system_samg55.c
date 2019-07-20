@@ -84,6 +84,8 @@ void SystemInit( void )
 
   /* Set FWS according to default clock configuration */
   EFC->EEFC_FMR  =   EEFC_FMR_FWS(1);
+	
+	SystemCoreClockUpdate();
 }
 
 void SystemCoreClockUpdate( void )

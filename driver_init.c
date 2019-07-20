@@ -59,6 +59,8 @@ void system_init(void)
 {
 	init_mcu();
 
+	SystemCoreClockUpdate();
+
 	_pmc_enable_periph_clock(ID_PIOA);
 
 	/* Disable Watchdog */

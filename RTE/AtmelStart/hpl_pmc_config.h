@@ -689,7 +689,7 @@
 //   <i> Select the frequency of External Clock Control
 //   <id> usart_ext_frequency
 #ifndef CONF_USART_EXT_FREQUENCY
-#define CONF_USART_EXT_FREQUENCY 9600
+#define CONF_USART_EXT_FREQUENCY 115200
 #endif
 // </h>
 // </e>
